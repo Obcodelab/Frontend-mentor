@@ -178,7 +178,7 @@ body {
     display: grid;
     grid-gap: 40px;
     place-items: center center;
-    margin: 150px 500px;
+    margin: 150px 600px;
     border-radius: 35px;
   }
   #hero img {
