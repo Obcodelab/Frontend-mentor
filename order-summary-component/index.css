@@ -254,7 +254,7 @@ body {
     display: grid;
     grid-gap: 40px;
     place-items: center center;
-    margin: 150px 640px;
+    margin: 300px 640px;
     border-radius: 35px;
   }
 }
