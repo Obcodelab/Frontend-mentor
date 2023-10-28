@@ -153,34 +153,6 @@ body {
     margin: 60px 420px;
     border-radius: 35px;
   }
-  #change:hover,
-  #payment:hover {
-    cursor: pointer;
-    opacity: 0.8;
-  }
-  #cancel:hover {
-    cursor: pointer;
-    color: var(--darkblue);
-  }
-}
-@media screen and (min-width: 1440px) {
-  body {
-    all: unset;
-    background-image: url("./images/pattern-background-desktop.svg");
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: rgb(225, 233, 254);
-  }
-  .container {
-    position: relative;
-    background-color: white;
-    display: grid;
-    grid-gap: 40px;
-    place-items: center center;
-    margin: 150px 600px;
-    border-radius: 35px;
-  }
   #hero img {
     width: 100%;
     border-radius: 35px 35px 0px 0px;
@@ -237,5 +209,52 @@ body {
     font-weight: 700;
     color: var(--desaturatedblue);
     padding-bottom: 35px;
+  }
+  #change:hover,
+  #payment:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  #cancel:hover {
+    cursor: pointer;
+    color: var(--darkblue);
+  }
+}
+@media screen and (min-width: 1440px) {
+  body {
+    all: unset;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(225, 233, 254);
+  }
+  .container {
+    position: relative;
+    background-color: white;
+    display: grid;
+    grid-gap: 40px;
+    place-items: center center;
+    margin: 150px 500px;
+    border-radius: 35px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  body {
+    all: unset;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(225, 233, 254);
+  }
+  .container {
+    position: relative;
+    background-color: white;
+    display: grid;
+    grid-gap: 40px;
+    place-items: center center;
+    margin: 150px 640px;
+    border-radius: 35px;
   }
 }
