@@ -10,14 +10,10 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github URL](https://github.com/Obcodelab/Frontend-mentor/tree/main/order-summary-component)
+- Live Site URL: [Live site URL](https://frontend-mentor-navy-beta.vercel.app/)
 
 ## My process
 
@@ -36,6 +32,5 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Aystar19](https://www.frontendmentor.io/profile/Aystar19)
+- Twitter - [@obcodelab](https://www.twitter.com/obcodelab)
