@@ -86,8 +86,8 @@
   place-items: center;
   width: 100%;
   height: 55px;
-  background-color: red;
   border-radius: 10px;
+  font-weight: 700;
 }
 #bottom-container #continue {
   display: grid;
@@ -99,10 +99,71 @@
   margin-top: 20px;
   color: var(--White);
 }
+.box-image {
+  display: grid;
+  place-items: center;
+}
+#summary {
+  font-weight: 700;
+}
+.box-image {
+  position: relative;
+  left: -20px;
+}
+.box-text-1 {
+  position: relative;
+  left: -70px;
+}
+.box-text-2 {
+  position: relative;
+  left: -75px;
+}
+span {
+  opacity: 0.4;
+}
+#reaction {
+  color: var(--lightRed);
+}
+#memory {
+  color: var(--orangeYellow);
+}
+#verbal {
+  color: var(--greenTeal);
+}
+#visual {
+  color: var(--cobaltBlue);
+}
+#bottom-container #box-container #box-1 {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+#bottom-container #box-container #box-2 {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+#bottom-container #box-container #box-3 {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+#bottom-container #box-container #box-4 {
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
 .attribution {
-  margin: 90px 0px 20px 9px;
+  position: relative;
+  bottom: -90px;
+  margin-left: 10px;
   font-size: 15px;
 }
 .attribution a {
   text-decoration: none;
+}
+@media screen and (max-width: 320px) {
+  .box-text-1 {
+    left: -60px;
+  }
+  .box-text-2 {
+    left: -65px;
+  }
+  .attribution {
+    all: unset;
+    position: relative;
+    bottom: -200px;
+  }
 }
