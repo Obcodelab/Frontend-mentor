@@ -167,3 +167,29 @@ span {
     bottom: -200px;
   }
 }
+@media screen and (min-width: 360px) and (max-width: 370px) {
+  .attribution {
+    all: unset;
+    position: relative;
+    bottom: -20px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .attribution {
+    all: unset;
+    position: relative;
+    bottom: -55px;
+    margin-left: 15px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 393px) {
+  .attribution {
+    all: unset;
+    position: relative;
+    bottom: -15px;
+    margin-left: 16px;
+    font-size: 15px;
+  }
+}
